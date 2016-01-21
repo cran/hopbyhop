@@ -1,0 +1,4 @@
+export(HBH)
+export(MCHBH)
+importFrom("stats", "runif")
+importFrom("utils", "setTxtProgressBar", "txtProgressBar")
