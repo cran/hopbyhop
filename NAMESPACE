@@ -1,4 +1,10 @@
 export(HBH)
 export(MCHBH)
-importFrom("stats", "runif")
-importFrom("utils", "setTxtProgressBar", "txtProgressBar")
+export(stochastic_HBH)
+importFrom("stats", "runif","rbeta")
+importFrom("utils", "setTxtProgressBar", "txtProgressBar", "stack")
+importFrom("grDevices", "dev.off", "pdf")
+importFrom("pastecs","stat.desc")
+importFrom("ggplot2","ggplot","aes","geom_histogram","element_blank",
+           "labs","xlab","ylab","ggtitle","xlim","theme_classic",
+           "geom_boxplot","coord_flip","scale_x_discrete","geom_vline","theme")

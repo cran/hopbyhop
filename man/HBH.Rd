@@ -42,12 +42,14 @@ The ouput is a matrix containing the following values for each hop and total:
 }
 \references{
 Palma, J.M.O.; Carvalho, L.D.P.; Goncalves, A.P.C.; Galarza, C.E.; De Oliveira, A.M., "Application of Control Theory Markov Systems to Minimize the Number of Transmissions in a Multi-hop Network," in Computer Aided System Engineering (APCASE), 2015 Asia-Pacific Conference on , vol., no., pp.296-301, 14-16 July 2015 <DOI:10.1109/APCASE.2015.59>
+
+Olate, Jonathan Matias Palma, et al. "Networked control systems application: Minimization of the global number of interactions, transmissions and receptions in multi-hop network using discrete-time markovian jump linear systems." IEEE Latin America Transactions 14.6 (2016): 2675-2680.
 }
 \author{
 Christian E. Galarza and Jonathan M. Olate
 }
 \seealso{
-\code{\link{MCHBH}}
+\code{\link{MCHBH}},\code{\link{stochastic_HBH}}
 }
 \examples{
 #An N=5 Hop by hop system with limited L=7 retransmission per hop
